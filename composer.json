@@ -1,0 +1,20 @@
+{
+    "name": "salvadordevopsdays/certificados",
+    "description": "Certificados para o DevOpsDays Salvador",
+    "type": "project",
+    "require": {
+        "vlucas/phpdotenv": "^2.4",
+        "twig/twig": "^2.4"
+    },
+    "authors": [
+        {
+            "name": "Thiago Colares",
+            "email": "thicolares@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Certificados\\": "src/"
+        }
+    }
+}
